@@ -29,3 +29,34 @@
 .card2 ul {
     color: rgb(196, 28, 28);
 }
+
+#navbar{
+    background-color: rgb(0, 0, 0);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#tentang-kami{
+    text-align: justify;
+}
+
+#tampilan-awal,#lokasi-kami,#pendaftaran-mobil{
+    background-color: rgb(203, 221, 253);
+    color: rgb(0, 0, 0);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/* #lokasi-kami{
+    background-color: rgb(129, 174, 253);
+    color: rgb(0, 0, 0);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+#pendaftaran-mobil{
+    background-color: rgb(129, 174, 253);
+    color: rgb(0, 0, 0);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+} */
