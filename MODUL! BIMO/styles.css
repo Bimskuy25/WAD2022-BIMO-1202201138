@@ -1,0 +1,31 @@
+.card1 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card2 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.card1 .img {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.card2 .img {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.card1 ul {
+    color: rgb(196, 28, 28);
+}
+
+.card2 ul {
+    color: rgb(196, 28, 28);
+}
