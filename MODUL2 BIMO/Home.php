@@ -10,6 +10,7 @@
 </head>
 
 <body>
+     <!-- navbar -->
      <nav class="navbar navbar-expand-lg navbar-light bg-info">
           <div class="collapse navbar-collapse d-flex justify-content-center">
                <div class="navbar-nav">
@@ -18,12 +19,14 @@
                </div>
           </div>
      </nav>
-
+     <!-- end navbar -->
+     <!-- Page Tittle -->
      <div class="title text-center mt-3">
           <h5 class="text-dark ">WELCOME TO EAD RENT</h5>
           <h6 class="text-dark ">Find your best deal, here!</h6>
      </div>
-
+     <!-- end Page Tittle -->
+     <!-- car variant -->
      <div class="container d-flex justify-content-center p-2 mt-3">
           <div class="row row-cols-1 row-cols-md-3 g-4">
                <div class="col">
@@ -47,7 +50,7 @@
                               </p>
                          </div>
                          <div class="card-footer d-flex justify-content-center">
-                              <a class="btn btn-primary" href="Booking.php?car=Mazda CX-5">Book now</a>
+                              <a class="btn btn-primary" href="Booking.php?car=MazdaCX-5">Book now</a>
                          </div>
                     </div>
                </div>
@@ -72,7 +75,7 @@
                               </p>
                          </div>
                          <div class="card-footer d-flex justify-content-center">
-                              <a class="btn btn-primary" href="Booking.php?car=Civic Turbo">Book now</a>
+                              <a class="btn btn-primary" href="Booking.php?car=CivicTurbo">Book now</a>
                          </div>
                     </div>
                </div>
@@ -97,18 +100,21 @@
                               </p>
                          </div>
                          <div class="card-footer d-flex justify-content-center">
-                              <a class="btn btn-primary" href="Booking.php?car=Mercedes Benz C-200">Book now</a>
+                              <a class="btn btn-primary" href="Booking.php?car=MercedesBenzC200">Book now</a>
                          </div>
                     </div>
                </div>
           </div>
      </div>
+     <!-- end car variant -->
+     <!-- footer -->
      <footer>
           <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
                Copyright 2022
                <a class="text-dark">Bimo_1202201138_SI4404</a>
           </div>
      </footer>
+     <!-- end footer -->
 </body>
 
 </html>

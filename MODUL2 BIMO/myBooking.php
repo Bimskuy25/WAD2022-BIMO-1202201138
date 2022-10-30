@@ -22,18 +22,18 @@
      $phone = $_POST['nomor'];
 
      if ($car == "mazda.png") :
-          $car = 'Mazda CX-5';
+          $car = 'MazdaCX-5';
      elseif ($car == "civic.png") :
-          $car = 'Civic Turbo';
+          $car = 'CivicTurbo';
      elseif ($car == "merci.png") :
-          $car = 'Mercedes Benz C-200';
+          $car = 'MercedesBenzC-200';
      endif;
 
-     if ($car == "Mazda CX-5") :
+     if ($car == "MazdaCX-5") :
           $total = 200000 * $duration;
-     elseif ($car == "Civic Turbo") :
+     elseif ($car == "CivicTurbo") :
           $total = 300000 * $duration;
-     elseif ($car == "Mercedes Benz C-200") :
+     elseif ($car == "MercedesBenzC-200") :
           $total = 400000 * $duration;
      endif;
 
@@ -98,6 +98,7 @@
      endif;
 
      ?>
+     <!-- navbar -->
      <nav class="navbar navbar-expand-lg navbar-light bg-info">
           <div class="collapse navbar-collapse d-flex justify-content-center">
                <div class="navbar-nav">
@@ -106,10 +107,14 @@
                </div>
           </div>
      </nav>
+     <!-- end navbar -->
+     <!-- Page Tittle -->
      <div class="title text-center mt-4 mb-5">
           <h3 class="text-dark"><?= 'Thank You',' ',$name,' ','For Reserving' ?></h3>
           <h5 class="text-dark">Please Double Check Your Reservation Details</h5>
      </div>
+     <!-- end Page Tittle -->
+     <!-- Booking Details -->
      <div class="container d-flex justify-content-center">
           <table class="table table-striped">
                <tr>
@@ -134,12 +139,15 @@
                </tr>
           </table>
      </div>
+     <!-- end Booking Details -->
+     <!-- Footer -->
      <footer style="position:absolute; bottom:0; width:100%;">
           <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
                Copyright 2022
                <a class="text-dark">Bimo_1202201138_SI4404</a>
           </div>
      </footer>
+     <!-- end Footer -->
 </body>
 
 </html>
