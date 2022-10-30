@@ -28,7 +28,7 @@
           $imgUrl = "merci.png";
      endif;
      ?>
-     <title>Booking</title>
+     <title>Booking Kendaraan</title>
 </head>
 
 <body>
