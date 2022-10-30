@@ -4,7 +4,7 @@
 <head>
      <meta charset="UTF-8">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
      <script>
           function setPicture() {
                var banner = document.getElementById("tipe");
@@ -53,27 +53,27 @@
                <div class="col-md-8">
                     <div class="card-body">
                          <form action="myBooking.php" method="POST">
-                              <div class="form-group">
+                              <div class="form-group mb-3">
                                    <label for="nama">Name</label>
-                                   <input type="text" class="form-control" name="nama">
+                                   <input class="form-control" type="text" name="nama" id="nama" value="Bimo_1202201138" readonly>
                               </div>
 
-                              <div class="form-group">
+                              <div class="form-group mb-3">
                                    <label for="nama">Book Date</label>
                                    <input type="date" class="form-control" name="checkin">
                               </div>
 
-                              <div class="form-group">
+                              <div class="form-group mb-3">
                                    <label for="nama">Start Time</label>
                                    <input type="time" class="form-control" name="starttime">
                               </div>
 
-                              <div class="form-group">
+                              <div class="form-group mb-3">
                                    <label for="nama">Duration Day(s)</label>
                                    <input type="number" class="form-control" name="duration">
                               </div>
 
-                              <div class="form-group">
+                              <div class="form-group mb-3">
                               <label for="car">Car Type</label>
                               <?php if (empty($_GET['car'])) : ?>
                                    <select class="form-control" name="car" id="tipe" onchange="setPicture()">
@@ -90,13 +90,13 @@
                               <?php endif; ?>
                               </div>
 
-                              <div class="form-group">
+                              <div class="form-group mb-3">
                                    <label for="nomorhp">Phone Number</label>
                                    <input type="text" class="form-control" name="nomor">
                               </div>
 
                               <p class="mb-0">Add Service(s)</p>
-                              <div class="form-group">
+                              <div class="form-group mb-3">
                                    <div class="form-check">
                                         <input class="form-check-input" type="checkbox" name="service1" value="HealthProtocol">
                                         <label class="form-check-label" for="Health Protocol">
@@ -116,8 +116,9 @@
                                         </label>
                                    </div>
                               </div>
-
-                              <button class="btn btn-block btn-danger" type="submit" value="send">Book</button>
+                              <div class="form-group mb-3">
+                                   <button class="btn btn-block btn-danger" type="submit" value="send">Book</button>
+                              </div>
                          </form>
                     </div>
                </div>
