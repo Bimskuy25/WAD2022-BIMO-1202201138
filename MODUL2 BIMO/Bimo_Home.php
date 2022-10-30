@@ -14,8 +14,8 @@
      <nav class="navbar navbar-expand-lg navbar-light bg-info">
           <div class="collapse navbar-collapse d-flex justify-content-center">
                <div class="navbar-nav">
-                    <a class="nav-item nav-link active" href="Home.php">Home</a>
-                    <a class="nav-item nav-link" href="Booking.php">Booking</a>
+                    <a class="nav-item nav-link active" href="Bimo_Home.php">Home</a>
+                    <a class="nav-item nav-link" href="Bimo_Booking.php">Booking</a>
                </div>
           </div>
      </nav>
@@ -50,7 +50,7 @@
                               </p>
                          </div>
                          <div class="card-footer d-flex justify-content-center">
-                              <a class="btn btn-primary" href="Booking.php?car=MazdaCX-5">Book now</a>
+                              <a class="btn btn-primary" href="Bimo_Booking.php?car=MazdaCX-5">Book now</a>
                          </div>
                     </div>
                </div>
@@ -75,7 +75,7 @@
                               </p>
                          </div>
                          <div class="card-footer d-flex justify-content-center">
-                              <a class="btn btn-primary" href="Booking.php?car=CivicTurbo">Book now</a>
+                              <a class="btn btn-primary" href="Bimo_Booking.php?car=CivicTurbo">Book now</a>
                          </div>
                     </div>
                </div>
@@ -100,7 +100,7 @@
                               </p>
                          </div>
                          <div class="card-footer d-flex justify-content-center">
-                              <a class="btn btn-primary" href="Booking.php?car=MercedesBenzC200">Book now</a>
+                              <a class="btn btn-primary" href="Bimo_Booking.php?car=MercedesBenzC200">Book now</a>
                          </div>
                     </div>
                </div>

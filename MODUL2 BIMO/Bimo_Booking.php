@@ -44,8 +44,8 @@
      <nav class="navbar navbar-expand-lg navbar-light bg-info">
           <div class="collapse navbar-collapse d-flex justify-content-center">
                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="home.php ">Home</a>
-                    <a class="nav-item nav-link active" href="booking.php">Booking</a>
+                    <a class="nav-item nav-link" href="Bimo_Home.php ">Home</a>
+                    <a class="nav-item nav-link active" href="Bimo_Booking.php">Booking</a>
                </div>
           </div>
      </nav>
@@ -63,7 +63,7 @@
                </div>    
                <div class="col-md-8">
                     <div class="card-body">
-                         <form action="myBooking.php" method="POST">
+                         <form action="Bimo_myBooking.php" method="POST">
                               <div class="form-group mb-3">
                                    <label for="nama">Name</label>
                                    <input class="form-control" type="text" name="nama" id="nama" value="Bimo_1202201138" readonly>

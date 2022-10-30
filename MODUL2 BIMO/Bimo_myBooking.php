@@ -102,8 +102,8 @@
      <nav class="navbar navbar-expand-lg navbar-light bg-info">
           <div class="collapse navbar-collapse d-flex justify-content-center">
                <div class="navbar-nav">
-                    <a class="nav-item nav-link" href="Home.php ">Home</a>
-                    <a class="nav-item nav-link active" href="Booking.php">Booking</a>
+                    <a class="nav-item nav-link" href="Bimo_Home.php ">Home</a>
+                    <a class="nav-item nav-link active" href="Bimo_Booking.php">Booking</a>
                </div>
           </div>
      </nav>
