@@ -32,7 +32,7 @@
                $imgUrl = "mazda.png";
           elseif ($car == "CivicTurbo") :
                $imgUrl = "civic.png";
-          elseif ($car == "MercedesBenzC20") :
+          elseif ($car == "MercedesBenzC200") :
                $imgUrl = "merci.png";
           endif;
           ?>

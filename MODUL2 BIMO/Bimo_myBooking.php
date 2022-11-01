@@ -12,7 +12,7 @@
      <body>
           <?php
           error_reporting(E_ERROR | E_PARSE);
-          $idNumber = random(10000, 20000);
+          $idNumber = rand(10000, 20000);
           $name = $_POST['nama'];
           $checkIn = $_POST['checkin'];
           $starttime = $_POST['starttime'];

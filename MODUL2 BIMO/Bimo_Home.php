@@ -50,7 +50,7 @@
                                    </p>
                               </div>
                               <div class="card-footer d-flex justify-content-center">
-                                   <a class="btn btn-primary" href="Bimo_Booking.php?car==MazdaCX-5">Book now</a>
+                                   <a class="btn btn-primary" href="Bimo_Booking.php?car=MazdaCX-5">Book now</a>
                               </div>
                          </div>
                     </div>
