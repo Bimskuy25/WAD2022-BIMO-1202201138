@@ -1,3 +1,3 @@
-<?php
-    require "./pages/Home-Bimo.php"
-?>
+    <?php
+        require "./pages/Home-Bimo.php"
+    ?>
