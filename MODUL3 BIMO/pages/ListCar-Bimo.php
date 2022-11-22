@@ -44,7 +44,7 @@
           <p>List Show Room Bimo_1202201138</p>
           <div class="d-flex gap-5">
             <?php
-            if (mysql_num_rows($result) > 0) {
+            if (mysqli_num_rows($result) > 0) {
               while ($row = mysqli_fetch_assoc($result)) {
                 echo "
                 <div class='card cardcontent' style='width: 18rem;'>

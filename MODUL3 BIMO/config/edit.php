@@ -13,7 +13,7 @@
         $target = "../assets/img";
 
         if (move_uploaded_file($_FILES['gambar']['tmp_name'], $target . $gambar)) {
-        $sql = "UPDATE showroom_bimo SET nama_mobil = '$nama_mobil', pemilik_mobil = '$pemilik_mobil', merk_mobil = '$merk_mobil', tanggal_beli = '$tanggal_beli', deskripsi = '$deskripsi', foto_mobil = '$gambar' status_pembayaran = '$status_pembayaran' WHERE id_mobil = $id";
+        $sql = "UPDATE showroom_bimo SET nama_mobil = '$nama_mobil', pemilik_mobil = '$pemilik_mobil', merk_mobil = '$merk_mobil', tanggal_beli = '$tanggal_beli', deskripsi = '$deskripsi', foto_mobil = '$gambar' , status_pembayaran = '$status_pembayaran' WHERE id_mobil = $id";
         if (mysqli_query($koneksi, $sql)) {
             header("location: ../pages/ListCar-Bimo.php");
         } else {

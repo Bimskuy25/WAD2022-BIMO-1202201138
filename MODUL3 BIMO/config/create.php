@@ -8,8 +8,8 @@
         $deskripsi = $_POST['deskripsi'];
         $status_pembayaran = $_POST['statuspembayaran'];
 
-        $gambar = $_FILES['gambar']['nama'];
-        $target = "../assets/img/";
+        $gambar = $_FILES['gambar']['name'];
+        $target = "../assets/img";
 
         if (move_uploaded_file($_FILES['gambar']['tmp_name'], $target . $gambar)) {
         $sql = "INSERT INTO showroom_bimo (nama_mobil, pemilik_mobil, merk_mobil, tanggal_beli, deskripsi, foto_mobil, status_pembayaran) VALUES ('$nama_mobil', '$pemilik_mobil', '$merk_mobil', '$tanggal_beli', '$deskripsi', '$gambar', '$status_pembayaran')";
