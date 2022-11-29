@@ -21,7 +21,7 @@
                 $pass = password_hash($_POST["pass"], PASSWORD_DEFAULT);
 
                 $query = "UPDATE users SET nama='$nama', no_hp=$nohp, password='$pass', WHERE id=$id";
-                $update = mysqli_query($conn, $query);
+                $update = mysqli_query($koneksi, $query);
                 if ($update) {
                     $_SESSION["nama"] = $nama;
                     $message = "Profil berhasil diperbarui";

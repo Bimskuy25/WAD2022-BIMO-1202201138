@@ -21,7 +21,7 @@
             $result = mysqli_query($conn, $query);
 
             if (!$result->num_rows) {
-                $query = "INSERT INTO users VALUES (NULL, '$email', '$nama', '$pass', '$nohp')";
+                $query = "INSERT INTO users VALUES (NULL, '$email', '$name', '$pass', '$nohp')";
                 $result = mysqli_query($conn, $query);
                 if ($result) {
                     $message = "Registrasi berhasil";
@@ -85,7 +85,7 @@
                                     <label class="form-label" for="email">Email address</label>
                                 </div>
                                 <div class="form-outline mb-2">
-                                    <input type="text" id="nama" class="form-control" name="nama"/>
+                                    <input type="text" id="nama" class="form-control" name="name"/>
                                     <label class="form-label" for="nama">Nama</label>
                                 </div>
                                 <div class="form-outline mb-2">

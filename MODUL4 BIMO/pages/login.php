@@ -86,7 +86,7 @@
                                 </div>
             
                                 <div class="form-outline mb-4">
-                                <input type="password" id="pass" class="form-control form-control-lg" name="password"/>
+                                <input type="password" id="pass" class="form-control form-control-lg" name="pass"/>
                                 <label class="form-label" for="pass">Password</label>
                                 </div>
             
