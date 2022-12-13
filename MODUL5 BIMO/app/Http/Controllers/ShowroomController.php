@@ -18,6 +18,7 @@ class ShowroomController extends Controller
         $img = Storage::disk('public')->put('img', $request->file('image'));
 
         Showrooms::create([
+            'user_id' => $data['user_id'],
             'name' => $data['name'],
             'owner' => $data['owner'],
             'brand' => $data['brand'],

@@ -1,0 +1,19 @@
+#home .element {
+    margin-top: 200px;
+}
+
+#detail img {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    border-radius: 16px;
+    margin-top: 20px;
+}
+
+#list .card {
+    background: #ffffff;
+    box-shadow: 6px 14px 40px rgba(210, 210, 210, 0.6);
+    border-radius: 16px;
+    width: 400px;
+    margin-top: 50px;
+}

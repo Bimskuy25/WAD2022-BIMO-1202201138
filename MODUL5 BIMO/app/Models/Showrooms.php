@@ -12,8 +12,9 @@ class Showrooms extends Model
     protected $table = 'showrooms';
 
     protected $fillable = [
-        'id_user',
+        'user_id',
         'name',
+        'owner',
         'brand',
         'purchase_date',
         'description',

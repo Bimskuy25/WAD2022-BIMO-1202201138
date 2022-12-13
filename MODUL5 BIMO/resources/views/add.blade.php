@@ -8,18 +8,23 @@
             <form action="{{ url('addCar') }}" method="POST" enctype="multipart/form-data">
                 @auth
                 @csrf
+                <input type="hidden" name="user_id" value="{{ auth()->user()->id }}">
+                <!-- <div class="mb-3">
+                    <label for="user_id" class="form-label">id Mobil</label>
+                    <input type="text" class="form-control" id="user_id" name="user_id" placeholder="Masukkan Nama Mobil" value="{{ auth()->user()->user_id }}" >
+                </div> -->
                 <div class="mb-3">
-                    <label for="owner" class="form-label">Nama Mobil</label>
-                    <input type="text" class="form-control" id="owner" name="owner" placeholder="Masukkan Nama Mobil">
+                    <label for="name" class="form-label">Nama Mobil</label>
+                    <input type="text" class="form-control" id="owner" name="name" placeholder="Masukkan Nama Mobil" value="{{ auth()->user()->name }}" >
                 </div>
                 <div class="mb-3">
-                    <label for="name" class="form-label">Nama Pemilik</label>
-                    <input type="text" class="form-control" id="name" name="name" placeholder="Masukkan Nama Pemilik" value="{{ auth()->user()->name }}">
+                    <label for="owner" class="form-label">Nama Pemilik</label>
+                    <input type="text" class="form-control" id="owner" name="owner" placeholder="Masukkan Nama Pemilik">
                 </div>
                 <div class="mb-3">
                     <label for="brand" class="form-label">Merk</label>
                     <input type="text" class="form-control" id="brand" name="brand" placeholder="Masukkan Merk Mobil"> 
-                </div>
+                </div> 
                 <div class="mb-3">
                     <label for="purchase_date">Tanggal</label>
                     <input type="date" class="form-control" id="purchase_date" name="purchase_date">

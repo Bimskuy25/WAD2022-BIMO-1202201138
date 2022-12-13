@@ -12,7 +12,7 @@
         <div class="d-flex gap-5">
           @foreach ($showroom as $row)
             <div class='card cardcontent' style='width: 18rem;'>
-            <img src='{{ url('storage/'.$row->image)}}' class='card-img-top' alt='fotomobil' style='padding: 16px;'>
+            <img src='{{ asset('storage/'.$row->image)}}' class='card-img-top' alt='fotomobil' style='padding: 16px;'>
             <div class='card-body'>
                 <h5 class='card-title'>{{ $row->name }}</h5>
                 <p class='card-text'>{{ $row->description }}</p>
