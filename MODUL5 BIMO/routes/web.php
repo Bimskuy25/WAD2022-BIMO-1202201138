@@ -2,7 +2,7 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
-// use App\Http\Controllers\ShowroomController;
+use App\Http\Controllers\ShowroomController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -17,7 +17,7 @@ use App\Http\Controllers\UserController;
 Route::get('/register', [UserController::class, 'index'])->name('register.get');
 Route::post('/register', [UserController::class, 'register']);
 Route::get('login', [UserController::class, 'login'])->name('login.get');
-Route::post('login', [UserController::class, 'loginUser'])->name('login.post');
+Route::post('/login', [UserController::class, 'loginUser'])->name('login.post');
 Route::get('logout', [UserController::class, 'logout'])->name('logout.get');
 route::post('/logout', [UserController::class, 'logoutUser']);
 route::put('/profile/{id}', [UserController::class, 'edit'])->name('updateProfile.put');

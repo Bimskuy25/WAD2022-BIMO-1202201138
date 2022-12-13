@@ -61,7 +61,7 @@ class UserController extends Controller
 
 
         // login user with email and password
-        $_credentials = request(['email', 'password']);
+        $credentials = request(['email', 'password']);
         if (!auth()->attempt($credentials))
             return redirect()->route('login')->with('error', 'Login Failed');
 
