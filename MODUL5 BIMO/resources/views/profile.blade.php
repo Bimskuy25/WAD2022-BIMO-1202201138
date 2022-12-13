@@ -48,33 +48,6 @@
                 <a class="btn btn-secondary btn-block" href="Home-Bimo.php" role="button">Cancel</a>
             </div>
         </form>
-    <!-- <form action="{{ '/profile/'.$user->id  }}" method="POST" enctype="multipart/form-data">
-          <div class="dform-group row">
-            <label for="email" class="col-sm-3 col-form-label">Email</label>
-            <h2>{{ $user->email }}</h2>
-          </div>
-          <div class="d-flex align-items-center mt-4">
-            <label for="nama">Nama</label>
-            <input id="nama" name="name" value="{{ $user->name }}">
-          </div>
-          <div class="d-flex align-items-center mt-4">
-            <label for="nohp">Nomor Handphone</label>
-            <input id="nohp" name="no_hp" value="{{ $user->no_hp }}">
-          </div>
-          <hr>
-          <div class="d-flex align-items-center">
-            <label for="password">Kata Sandi</label>
-            <input type="password" id="password" name="password" placeholder="Kata Sandi">
-          </div>
-          <div class="d-flex align-items-center mt-4">
-            <label for="password">Konfirmasi Kata Sandi</label>
-            <input type="password" id="password" name="password" placeholder="Konfirmasi Kata Sandi">
-          </div>
-          <div class="d-flex align-items-center mt-4 justify-content-center">
-            <button type="submit" class="btn btn-success">Update</button>
-          </div>
-        </div>
-      </form> -->
         <div class="d-flex align-items-center gap-5 mt-5">
           <img src="../assets/img/logo-ead.png" alt="logoead" style="width:100px;">
           <p style="margin-top: 20px; font-size:14px;">Bimo_1202201138</p>

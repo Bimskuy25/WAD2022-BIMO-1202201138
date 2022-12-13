@@ -9,10 +9,6 @@
                 @auth
                 @csrf
                 <input type="hidden" name="user_id" value="{{ auth()->user()->id }}">
-                <!-- <div class="mb-3">
-                    <label for="user_id" class="form-label">id Mobil</label>
-                    <input type="text" class="form-control" id="user_id" name="user_id" placeholder="Masukkan Nama Mobil" value="{{ auth()->user()->user_id }}" >
-                </div> -->
                 <div class="mb-3">
                     <label for="name" class="form-label">Nama Mobil</label>
                     <input type="text" class="form-control" id="owner" name="name" placeholder="Masukkan Nama Mobil" value="{{ auth()->user()->name }}" >
