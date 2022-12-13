@@ -33,7 +33,7 @@ class ShowroomController extends Controller
     /**
      * @return response
      */
-    public function showCar(Request $request)
+    public function show_Car(Request $request)
     {
         $showroom = Showrooms::all();
         return view('list')->with('showroom', $showroom);
