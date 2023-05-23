@@ -1,3 +1,3 @@
 # WAD2022-BIMO-1202201138
 
-Ampuni Hamba Tuann
+<h2>Praktikum Web Application Development</h2>
